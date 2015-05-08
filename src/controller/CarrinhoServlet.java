@@ -16,7 +16,7 @@ import sistema.GerenciadorDeCarrinho;
 import dominio.Carrinho;
 import dominio.Produto;
 
-@WebServlet("/cliente/CarrinhoServlet")
+@WebServlet("/cliente/CarrinhoServlet") 
 public class CarrinhoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
